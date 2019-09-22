@@ -207,3 +207,10 @@ navbar .navbar-nav>.active>a {
 #form-subscribe {
     background-color: #ffffff;
 }
+
+.btn-subscribe {
+    border-radius: 0px;
+    border-color: #000000;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
