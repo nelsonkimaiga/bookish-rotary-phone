@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+body,
+html {
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#custom-search-input {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+/* navigation styles */
+.bg-light {
+    background-color: #D00126 !important;
+    border: none;
+    border-radius: 0;
+}
+
+.bg-dark {
+    background-color: #D00126 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* only affix the top navbar on mobile */
+@media (max-width: 768px) {
+    .fixed-top-sm {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    body {
+        padding-top: 44px;
+    }
+}
+
+navbar .navbar-nav>.active>a {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar .navbar {
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-nav>li>.dropdown-menu.megamenu {
+    margin-top: -1px;
+}
+
+.navbar .navbar-nav>li>a {
+    color: white;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.navbar .navbar-nav>.active>a,
+.navbar .navbar-nav>.active>a:focus,
+.navbar .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar .navbar-nav>.active>a:hover {
+    color: yellow;
+    background-color: transparent;
+}
+
+.navbar .navbar-nav .nav-link>a:hover {
+    color: yellow;
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #ffff00
+}
+
+.form-control {
+    color: #ffff00;
+    background-color: #D00126 !important;
+}
+
+.form-control::-webkit-input-placeholder,
+.sign-in {
+    color: #ffff00 !important;
+}
+
+.carousel-control-next-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-control-prev-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.about {
+    text-decoration: underline red;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.btn-light {
+    border-radius: 0px;
+    border-color: #D00126;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.featured {
+    text-decoration: underline #D00126;
+}
+
+.news-articles li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #D00126;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.news-articles {
+    list-style: none;
+}
+
+.articles {
+    color: #000000;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+.footer-bg {
+    background-color: #e4e4e4;
+}
+
+
+.footer-text-header {
+    color: #D00126;
+}
+
+.footer-paragrapaph {
+    font-weight: 500px;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+#form-subscribe {
+    background-color: #ffffff;
+}
