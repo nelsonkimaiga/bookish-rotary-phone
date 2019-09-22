@@ -156,6 +156,20 @@ navbar .navbar-nav>.active>a {
     font-weight: 300;
 }
 
+.filter-btn {
+    border-radius: 0px;
+    border-color: #000000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.filter-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 .featured {
     text-decoration: underline #D00126;
 }
@@ -213,4 +227,22 @@ navbar .navbar-nav>.active>a {
     border-color: #000000;
     font-size: 1.1rem;
     font-weight: 300;
+}
+
+.events-div {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+}
+
+.event-card-body {
+    background-color: #ffff00;
+    color: #000;
+    font-weight: 500;
+}
+
+.event-text {
+    color: #000;
+    font-weight: 300;
+    text-align: left;
 }
