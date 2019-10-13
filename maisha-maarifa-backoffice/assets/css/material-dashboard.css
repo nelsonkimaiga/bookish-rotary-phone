@@ -15443,8 +15443,8 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .sidebar[data-color="purple"] li.active>a {
-  background-color: #d00126;
-  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+  background-color: #81b71a;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px #81b71a;
 }
 
 .sidebar[data-color="azure"] li.active>a {
@@ -17509,7 +17509,7 @@ label {
 .card .card-header-primary .card-icon,
 .card .card-header-primary:not(.card-header-icon):not(.card-header-text),
 .card .card-header-primary .card-text {
-  box-shadow: 0 4px 20px 0px  #d00126;
+  box-shadow: 0 4px 20px 0px  #81b71a;
 }
 
 .card .card-header-danger .card-icon,
@@ -19975,4 +19975,10 @@ input:focus~.highlight {
 .login-footer img:focus,
 .login-footer a:focus {
   outline: none;
+}
+
+.sub-menu{
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
