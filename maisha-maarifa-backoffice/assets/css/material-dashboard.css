@@ -17509,7 +17509,7 @@ label {
 .card .card-header-primary .card-icon,
 .card .card-header-primary:not(.card-header-icon):not(.card-header-text),
 .card .card-header-primary .card-text {
-  box-shadow: 0 4px 20px 0px  #81b71a;
+  box-shadow: 0 4px 20px 0px #81b71a;
 }
 
 .card .card-header-danger .card-icon,
@@ -19977,7 +19977,7 @@ input:focus~.highlight {
   outline: none;
 }
 
-.sub-menu{
+.sub-menu {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
