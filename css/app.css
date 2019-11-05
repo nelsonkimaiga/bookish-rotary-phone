@@ -246,3 +246,8 @@ navbar .navbar-nav>.active>a {
     font-weight: 300;
     text-align: left;
 }
+
+/* comments */
+.card-inner {
+    margin-left: 4rem;
+}
