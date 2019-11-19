@@ -15,11 +15,17 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
     <link href="../assets/css/backoffice.css" rel="stylesheet" />
     <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <script>
+        // Material Select Initialization
+        $(document).ready(function () {
+            $('.mdb-select').materialSelect();
+        });
+    </script>
 </head>
 
 <body class="">
     <div class="wrapper ">
-        <div class="sidebar" data-color="purple" data-background-color="black" data-image="../assets/img/sidebar-1.jpg">
+        <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
             <div class="logo">
                 <a href="" class="simple-text logo-normal">
                     Hello Admin
@@ -40,22 +46,22 @@
                             <p>Research</p>
                         </a>
                         <ul class="sub-menu collapse" id="collapseExample">
-                            <li class=""><a class="nav-link" href="research.html">
+                            <li class=""><a class="nav-link custom-nav-link" href="research.html">
                                     <i class="fa fa-stack-exchange" aria-hidden="true"></i>
                                     <p>Research</p>
                                 </a>
                             </li>
-                            <li class=""><a class="nav-link" href="">
+                            <li class=""><a class="nav-link custom-nav-link" href="">
                                     <i class="fa fa-question-circle" aria-hidden="true"></i>
                                     <p>Research Questions Categories</p>
                                 </a>
                             </li>
-                            <li class=""><a class="nav-link" href="">
+                            <li class=""><a class="nav-link custom-nav-link" href="">
                                     <i class="fa fa-question-circle" aria-hidden="true"></i>
                                     <p>Research Questions Sub-categories</p>
                                 </a>
                             </li>
-                            <li class=""><a class="nav-link" href="">
+                            <li class=""><a class="nav-link custom-nav-link" href="">
                                     <i class="fa fa-question-circle" aria-hidden="true"></i>
                                     <p>Research Questions</p>
                                 </a>
@@ -366,33 +372,29 @@
                         <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2"
                             placeholder="Filter By Title">
 
-                        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
                         <div class="input-group mb-2 mr-sm-2">
                             <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                    style="border-radius: 0;">
-                                    Select Research Type
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
+                                <select class="form-control mdb-select md-form" id="TypeId" name="TypeId">
+                                    <option value="" disabled selected>Select Research Type</option>
+                                    <option value="1">PUBLISHED RESEARCH</option>
+                                    <option value="2">ONGOING RESEARCH</option>
+                                    <option value="3">INNOVATION &amp; BEST PRACTICES</option>
+                                    <option value="4">UNPUBLISHED STUDY REPORTS</option>
+                                    <option value="5">ABSTRACTS</option>
+                                </select>
                             </div>
                         </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                    style="border-radius: 0;">
-                                    Dropdown button
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">10</a>
-                                    <a class="dropdown-item" href="#">20</a>
-                                    <a class="dropdown-item" href="#">50</a>
-                                </div>
+                                <select class="form-control mdb-select md-form" id="pageSize" name="pageSize">
+                                    <option value="" disabled selected>Number of Results</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                    <option value="200">200</option>
+                                    <option value="20000">All</option>
+                                </select>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-danger mb-2"

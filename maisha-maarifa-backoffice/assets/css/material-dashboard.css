@@ -11,7 +11,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif !important;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -39,13 +39,13 @@ section {
 
 body {
   margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000;
   text-align: left;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus {
@@ -460,7 +460,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5873,7 +5873,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5998,7 +5998,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -15443,8 +15443,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .sidebar[data-color="purple"] li.active>a {
-  background-color: #81b71a;
-  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px #81b71a;
+  background-color: #D00126;
 }
 
 .sidebar[data-color="azure"] li.active>a {
@@ -16967,8 +16966,8 @@ thead.thead-inverse th,
 }
 
 body {
-  background-color: #eee;
-  color: #3C4858;
+  background-color: #fff;
+  color: #000000;
   font-weight: 300;
 }
 
@@ -16977,7 +16976,7 @@ legend {
 }
 
 .serif-font {
-  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-family: 'Lato', sans-serif !important;
 }
 
 * {
@@ -17764,7 +17763,7 @@ label {
 
 .card .card-body+.card-footer .stats,
 .card .card-footer .stats {
-  color: #999999;
+  color: #000000;
   font-size: 12px;
   line-height: 22px;
 }
@@ -17988,7 +17987,7 @@ label {
 }
 
 .card-stats .card-header .card-category:not([class*="text-"]) {
-  color: #999999;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -19982,3 +19981,10 @@ input:focus~.highlight {
   margin-bottom: 0;
   list-style: none;
 }
+
+
+.nav ul {
+  list-style: none;
+}
+
+
